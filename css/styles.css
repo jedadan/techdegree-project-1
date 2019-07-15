@@ -67,6 +67,14 @@ body {
   font-style: normal;
 }
 
+.episode {
+  font-style: italic;
+}
+
+.episode:before {
+  content: ", ";
+}
+
 .year:before {
   content: ", ";
   font-style: normal;
